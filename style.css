@@ -1,0 +1,351 @@
+@import url("./reset.css");
+
+.header {
+  height: 42px;
+  background-color: #aaaaaa;
+  text-align: center;
+  line-height: 42px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header_right {
+  display: flex;
+}
+.information a:hover {
+  color: #25ceff;
+}
+.button_right {
+  padding: 10px 20px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 15px;
+  font-size: 20px;
+}
+h3 {
+  letter-spacing: 1px;
+}
+.sns {
+  display: flex;
+}
+
+.instagram {
+  margin-left: 8px;
+  height: 50px;
+  width: 50px;
+}
+.instagram_link:hover img {
+  opacity: 0.6;
+}
+.linee {
+  margin-left: 8px;
+  margin-top: 12px;
+  height: 28px;
+  width: 28px;
+}
+.line_link:hover img {
+  opacity: 0.6;
+}
+
+.youtube {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 50px;
+  width: 50px;
+}
+.youtube_link:hover img {
+  opacity: 0.6;
+}
+.haru {
+  font-size: 48px;
+  font-family: "Kaisei Decol", serif;
+  padding-left: 180px;
+}
+.intro {
+  margin-top: 80px;
+}
+.title {
+  display: flex;
+}
+.jibunphoto {
+  margin-left: 250px;
+  width: 273px;
+  height: 267px;
+}
+.about {
+  margin-left: 20px;
+  font-size: 45px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 100;
+  text-decoration: underline;
+}
+.myself {
+  padding-left: 15px;
+}
+.introbox {
+  width: 540px;
+  height: 320px;
+  background-color: #d9d9d9;
+}
+.fujiharahiragana {
+  font-size: 10px;
+  font-family: "Shippori Mincho B1", serif;
+}
+.name {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+.basic-information {
+  display: flex;
+}
+.title-information {
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 22px;
+}
+.my-information {
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 22px;
+}
+.outer {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.information {
+  font-size: 40px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.centerpart {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.fujikaze {
+  width: 230px;
+  height: 230px;
+}
+.fujikaze_link {
+  display: block;
+}
+.fujikaze_link img {
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+}
+.fujikaze_link:hover img {
+  opacity: 0.6;
+}
+
+.fujikazesentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.music {
+  width: 230px;
+  height: 230px;
+  background-color: #aaaaaa;
+  font-size: 45px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 350;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.line {
+  width: 80px;
+  height: 7px;
+  background-color: white;
+  position: absolute;
+}
+.zutomayo {
+  width: 230px;
+  height: 230px;
+}
+
+.zutomayo_link:hover img {
+  opacity: 0.6;
+}
+
+.zutomayosentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.yorushika {
+  width: 230px;
+  height: 230px;
+}
+.yorushika_link:hover img {
+  opacity: 0.6;
+}
+.yorushikasentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.nextpart {
+  display: flex;
+  justify-content: space-between;
+}
+.vaundy {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+.vaundy_link:hover img {
+  opacity: 0.6;
+}
+.vaundysentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.lany {
+  width: 230px;
+  height: 230px;
+}
+.lany_link:hover img {
+  opacity: 0.6;
+}
+.lanysentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.musichistory {
+  width: 230px;
+  height: 230px;
+  background-color: #d9d9d9;
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  font-weight: 120;
+}
+.musichistorysentence {
+  padding-top: 33px;
+  padding-left: 33px;
+}
+.charlieputh {
+  width: 230px;
+  height: 230px;
+}
+.charlieputh_link:hover img {
+  opacity: 0.6;
+}
+.charlieputhsentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.blackline {
+  padding-top: 50px;
+  border-bottom: 2px solid black;
+}
+.foodpart {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.thaifood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.esniclove {
+  width: 160px;
+  height: 460px;
+  background-color: #d9d9d9;
+}
+.esniclovesentence {
+  font-family: "Noto Serif JP", serif;
+  font-size: 37px;
+  margin-left: 5px;
+  margin-top: 70px;
+  text-align: center;
+}
+.singaporefood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.favoritefood {
+  width: 240px;
+  height: 240px;
+  background-color: #a6a6a6;
+}
+.favoritefoodsentence {
+  font-family: "Noto Serif JP", serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 30;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.blackline2 {
+  padding-top: 50px;
+  border-bottom: 2px solid black;
+}
+.snspart {
+  padding-left: 360px;
+  padding-right: 360px;
+}
+.snssentence {
+  font-size: 45px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+  font-weight: 40;
+  text-decoration: underline;
+  margin-top: 25px;
+}
+.snsimg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.instagrambottom {
+  height: 120px;
+  width: 120px;
+}
+.linebottom {
+  height: 70px;
+  width: 70px;
+  margin-top: 25px;
+}
+.youtubebottom {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  margin-top: 6px;
+}
+.contactplease {
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 20;
+  margin-top: 30px;
+}
+
+.fotter {
+  margin-top: 60px;
+  height: 60px;
+  background-color: #aaaaaa;
+}
+.fottersentence {
+  font-family: "Kaisei Decol", serif;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
